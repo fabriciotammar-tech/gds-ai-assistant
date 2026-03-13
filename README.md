@@ -21,6 +21,12 @@ La POC (Proof of Concept) implementa técnicas avanzadas de prompting:
 * **Ipywidgets:** Interfaz de usuario interactiva dentro de la Notebook.
 * **OpenAI API / Gemini:** Modelos de lenguaje para el procesamiento de normativas.
 
+* "Desafío Técnico y Resolución:"
+
+Incidencia: Se detectó una inestabilidad recurrente (Error 404/400) en los endpoints de Google Gemini para la región.
+
+Solución Aplicada: Se implementó una lógica de Fallback (Respaldo). El sistema intenta procesar la contingencia mediante IA, pero cuenta con un protocolo de respuesta local para asegurar que el agente de viajes siempre reciba los comandos básicos del GDS.
+
 ---
 **Autor:** Fabricio Tammaro  
 **Diplomatura en IA: Generación de Prompts**
