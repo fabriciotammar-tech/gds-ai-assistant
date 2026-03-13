@@ -24,3 +24,5 @@ La POC (Proof of Concept) implementa técnicas avanzadas de prompting:
 ---
 **Autor:** Fabricio Tammaro  
 **Diplomatura en IA: Generación de Prompts**
+
+<img width="1075" height="571" alt="image" src="https://github.com/user-attachments/assets/045a1495-93b8-4c8f-bc49-df2dcd484771" />
